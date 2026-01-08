@@ -1,0 +1,215 @@
+
+
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head> 
+<link rel="icon" type="image/x-icon" href="images/sarten.ico">
+
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+<link rel="manifest" href="images/site.webmanifest">
+
+<title>CasiChef</title>
+<link rel="icon" href="images/favicon.jpg" type="image/jpg">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear">
+    <div class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <ul class="nospace">
+        <li><i class="fas fa-phone rgtspace-5"></i> +34 675 58 92 51</li>
+        <li><i class="far fa-envelope rgtspace-5"></i> nurialinaresreig@gmail.com</li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+    <div class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="nospace">
+        <li><a href="#" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="#" title="Sign Up"><i class="fas fa-edit"></i></a></li>
+        <li id="searchform">
+          <div>
+            <form action="#" method="post">
+              <fieldset>
+                <legend>Quick Search:</legend>
+                <input type="text" placeholder="Enter search term&hellip;">
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </fieldset>
+            </form>
+          </div>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+</div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded" style="background-image:url('images/fotofondo.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+        <!-- ################################################################################################ -->
+        <h1><a href="index.html">CasiChef</a></h1>
+        <!-- ################################################################################################ -->
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        <ul class="clear">
+          <li><a href="index.html" style="color: #E0E0E0 !important; cursor: pointer;">INICIO</a></li>
+          
+          <li class="active"><a href="recetas.html" style="color: #E0E0E0 !important; cursor: pointer;">RECETAS</a></li>
+          
+          <li><a href="resenas.html" style="color: #800080 !important;">RESEÑAS</a></li>
+          <li><a href="sobre-nosotros.html" style="color: #E0E0E0 !important;">SOBRE NOSOTROS</a></li>
+        </ul>
+        </nav>
+    </header>
+ 
+<div class="hoc clear center" style="padding: 60px 0;">
+    <h2 style="font-size: 50px; color: #E0E0E0; text-transform: uppercase; margin: 0;">Reseñas</h2>
+    <p style="color: #FFFFFF; text-align: center; font-size: 18px; margin-bottom: 50px; font-family: 'Playfair Display', serif; font-style: italic; letter-spacing: 1px; ">Las opiniones de los que ya han llenado su estómago</p>
+  </div>
+
+<div class="wrapper" style="background-color: #E0E0E0; padding: 60px 0;">
+  <div class="hoc container clear" style="position: relative; max-width: 850px;">
+    
+    <button onclick="cambiarResena(-1)" style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%); background: none; border: none; color: #800080; font-size: 40px; cursor: pointer; z-index: 10;">&#10094;</button>
+
+    <div id="slider-resenas">
+      <div class="resena-slide" style="display: block; animation: fadeEffect 0.8s;">
+        <div style="background: linear-gradient(135deg, #0d1f0d 0%, #050d05 100%); padding: 50px; border-radius: 30px; border: 1px solid rgba(128, 0, 128, 0.3); box-shadow: 0 15px 40px rgba(0,0,0,0.8); text-align: center;">
+          <div style="color: #FFD700; margin-bottom: 20px;">★★★</div>
+          <p style="color: #E0E0E0; font-size: 1.4rem; font-style: italic; line-height: 1.8; min-height: 120px;">Mis hijas son muy especialitas con la comida, cuando les guste alguna receta de esta web te pondré las 5 estrellas. Mucha suerte!</p>
+          <div style="color: #800080; font-weight: bold; margin-top: 20px; letter-spacing: 2px;">— LUCAS C.</div>
+        </div>
+      </div>
+
+      <div class="resena-slide" style="display: none; animation: fadeEffect 0.8s;">
+        <div style="background: linear-gradient(135deg, #0d1f0d 0%, #050d05 100%); padding: 50px; border-radius: 30px; border: 1px solid rgba(128, 0, 128, 0.3); box-shadow: 0 15px 40px rgba(0,0,0,0.8); text-align: center;">
+          <div style="color: #FFD700; margin-bottom: 20px;">★★★★★</div>
+          <p style="color: #E0E0E0; font-size: 1.4rem; font-style: italic; line-height: 1.8; min-height: 120px;">Me han traído los reyes una airfryer pero me parece más regalazo que exista esta web.</p>
+          <div style="color: #800080; font-weight: bold; margin-top: 20px; letter-spacing: 2px;">— EMMA J.</div>
+        </div>
+      </div>
+
+      <div class="resena-slide" style="display: none; animation: fadeEffect 0.8s;">
+        <div style="background: linear-gradient(135deg, #0d1f0d 0%, #050d05 100%); padding: 50px; border-radius: 30px; border: 1px solid rgba(128, 0, 128, 0.3); box-shadow: 0 15px 40px rgba(0,0,0,0.8); text-align: center;">
+          <div style="color: #FFD700; margin-bottom: 20px;">★★★★★</div>
+          <p style="color: #E0E0E0; font-size: 1.4rem; font-style: italic; line-height: 1.8; min-height: 120px;">Cada vez que entro a CasiChef se me ilumina la mirada porque solamente veo las mejores recetas que podré ver en mi vida.</p>
+          <div style="color: #800080; font-weight: bold; margin-top: 20px; letter-spacing: 2px;">— SANTIAGO C.</div>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="cambiarResena(1)" style="position: absolute; right: -50px; top: 50%; transform: translateY(-50%); background: none; border: none; color: #800080; font-size: 40px; cursor: pointer; z-index: 10;">&#10095;</button>
+
+  </div>
+</div>
+
+<style>
+  @keyframes fadeEffect {
+    from {opacity: 0; transform: scale(0.95);}
+    to {opacity: 1; transform: scale(1);}
+  }
+</style>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper coloured">
+  <section id="ctdetails" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="nospace clear">
+      <li class="one_quarter first">
+        <div class="block clear"><a href="#"><i class="fas fa-phone"></i></a> <span><strong>Contáctanos:</strong> +34 675 58 92 51</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="#"><i class="fas fa-envelope"></i></a> <span><strong>Envía un correo a:</strong> nurialinaresreig@gmail.com</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="#"><i class="fas fa-clock"></i></a> <span><strong> Lunes a Sábado:</strong> 08.00am - 18.00pm</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="#"><i class="fas fa-map-marker-alt"></i></a> <span><strong>Visitanos:</strong> Directions to <a href="#">our location</a></span></div>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay row4" style="background-image:url('images/fondofondo.jpg');">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h6 class="heading">ÍNDICE</h6>
+      <ul class="nospace linklist">
+        <li><a href="index.html">Página principal</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="resenas.html">Reseñas</a></li>
+        <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+      </ul>
+    </div>
+
+    <div class="one_quarter">
+      <h6 class="heading">Suscríbete a la web</h6>
+      <p class="nospace btmspace-15">Rellena tu nombre y recibiras por correo todas las novedades!</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit">Suscribirse</button>
+        </fieldset>
+      </form>
+    </div>
+
+<div class="one_quarter">
+      <h6 class="heading">Suscríbete</h6>
+      <p class="nospace btmspace-15">¡Recibe las novedades en tu correo!</p>
+      <form action="#" method="post">
+        <fieldset>
+          <input class="btmspace-15" type="text" placeholder="Nombre" style="width:100%; background:rgba(0,0,0,0.5); border:1px solid #800080; color:white; padding:5px;">
+          <input class="btmspace-15" type="text" placeholder="Email" style="width:100%; background:rgba(0,0,0,0.5); border:1px solid #800080; color:white; padding:5px;">
+          <button type="submit" style="background:#800080; color:white; border:none; padding:8px 15px; cursor:pointer; width:100%;">Suscribirse</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="two_quarter">
+      <h6 class="heading">Nuestra Ubicación</h6>
+      <div style="width: 100%; height: 200px; overflow: hidden; border-radius: 10px; border: 2px solid #800080; box-shadow: 0 0 15px rgba(128,0,128,0.4);">
+          <iframe
+            width="100%"
+            height="100%"
+            frameborder="0"
+            style="border:0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12521.821033504313!2d-0.7027961916364027!3d38.26359518041042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b05421c65727%3A0x1d36594ed9e7e7dd!2sElche%2C%20Alicante!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" 
+            allowfullscreen>
+          </iframe>
+      </div>
+    </div>
+
+  </footer>
+</div> <div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2024 - CasiChef - <a href="#">Aprende a cocinar con aire</a></p>
+    <p class="fl_right">Diseñado para los amantes de la Airfryer</p>
+  </div>
+</div>
